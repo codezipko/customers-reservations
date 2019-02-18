@@ -18,7 +18,6 @@ class ReservationController
 	
 	public function index()
 	{
-
 		$range = range( strtotime("10:00"),strtotime("20:00"),15*60 );
 
 		$arg = $this->reservation->usersToArray()->arguments;
